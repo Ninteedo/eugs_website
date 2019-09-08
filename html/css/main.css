@@ -1,0 +1,89 @@
+/* each section corresponds to a type of section in html */
+
+body {
+    background-image: url(gsbackground.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+
+div{
+    display: block;
+    
+}
+
+
+
+
+.banner{
+    max-width: 100%;
+    max-height: 100%;
+    
+
+}
+
+
+.pageback{
+    /*background-image: url(pw_pattern.png);*/
+    background-color: #0094FF;
+    width : 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    
+   
+}
+/* styles for the navibar*/
+.navbar{
+    margin-left: auto;
+    margin-right: auto;
+    background: grey;
+    width: 980px;
+
+}
+
+/*ul is un ordered list*/
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* li are the list elements*/
+.navbar li{
+   float: left;
+
+}
+/*hyperlinks in the list*/
+.navbar li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* hover is when the pointer hovers over the element*/
+.navbar li a:hover{
+    background-color: red;
+
+}
+
+.content{
+    
+    text-align: center;
+    color: black;
+    
+
+}
+
+.socialleft{
+    float: left;
+
+}
+
+.socialright{
+    float: right;
+
+}
