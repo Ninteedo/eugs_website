@@ -1,18 +1,42 @@
 /* each section corresponds to a type of section in html */
 
+
+
 body {
-    background-image: url(gsbackground.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image: url(cubesblue.png);
+    background-repeat: repeat;
     display: block;
-    font-family: Tahoma, Verdana, Arial, sans-serif;
+    font-family:  'Rubik', sans-serif;
 }
 
 div{
     display: block;
 }
 
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width:960px;
 
+}
+
+th, td{
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #0076cc;}
+
+
+h1{
+    text-align: center;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 .banner{
@@ -53,6 +77,7 @@ div{
 }
 /*hyperlinks in the list*/
 .navbar li a{
+    font-size: 20px;
     display: block;
     color: black;
     text-align: center;
@@ -69,9 +94,20 @@ div{
     border-bottom: 3px solid black;
 }
 
-.content{   
+.content-home{   
     text-align: center;
     color: black;
+}
+
+.content{
+    /*background-image: url(pw_pattern.png);*/
+    background-color: #0076cc;
+    padding: 10px;
+    font-size: 17px;
+    border: 3px black;
+    text-align: left;
+    color: black;
+
 }
 
 .socialleft{
@@ -81,3 +117,4 @@ div{
 .socialright{
     float: right;
 }
+
