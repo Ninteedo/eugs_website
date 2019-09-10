@@ -46,12 +46,13 @@ h1{
 
 
 .pageback{
-    /*background-image: url(pw_pattern.png);*/
+    
     background-color: #0094FF;
     width : 960px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;   
+    
 }
 /* styles for the navibar*/
 .navbar{
