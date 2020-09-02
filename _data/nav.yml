@@ -1,6 +1,8 @@
-- name: Home
-  link: /
-- name: About
-  link: /about.html
 - name: Events
   link: /events.html
+- name: Schedule
+  link: /e_schedule.html
+- name: About Us
+  link: /about.html
+- name: Servers
+  link: /servers.html

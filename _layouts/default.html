@@ -1,25 +1,30 @@
 <!doctype html>
 <html>
   <head>
-      <!--  Google Analytics stuff  -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149371938-1"></script>
-      <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+    <!--  Google Analytics stuff  -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149371938-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-149371938-1');
+    </script>
 
-          gtag('config', 'UA-149371938-1');
-      </script>
+    <!-- ensure responsive rendering -->  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
-
-      <meta charset="utf-8">
-      <title>{{page.title}}</title>
-      <link rel="stylesheet" href="/assets/css/styles.css">
-
+    <!--Import Styles-->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/fb6be0d398.js" crossorigin="anonymous"></script>
+    
+    <meta charset="utf-8">
+    <title>{{page.title}}</title>
   </head>
-  <body>
+
+  <body class="background">
     {% include nav.html %}
-    {{ content }}
+        {{ content }}
+    {% include footer.html %}
   </body>
+  
 </html>

@@ -1,45 +1,126 @@
 <!doctype html>
 <html>
   <head>
-      <!--  Google Analytics stuff  -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149371938-1"></script>
-      <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+    <!--  Google Analytics stuff  -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149371938-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-149371938-1');
+    </script>
 
-          gtag('config', 'UA-149371938-1');
-      </script>
+    <!-- ensure responsive rendering -->  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
-
-      <meta charset="utf-8">
-      <title>EUGS Events Page</title>
-      <link rel="stylesheet" href="/assets/css/styles.css">
-
+    <!--Import Styles-->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/fb6be0d398.js" crossorigin="anonymous"></script>
+    
+    <meta charset="utf-8">
+    <title>EUGS Events Page</title>
   </head>
-  <body>
-    <nav>
-  
-    <a href="/" >Home</a>
-  
-    <a href="/about.html" >About</a>
-  
-    <a href="/events.html" class="current">Events</a>
-  
-</nav>
-    <div class = pageback>
-    <h1> Main Gamesoc Events 2020/2021 </h1>
 
-    <h3> Pub - blahblahblahblahblah</h3>
-    <h3> Gamenights - blahblahblahblahblah</h3> 
-    <h3> vgmg -  blahblahblahblah</h3> 
-    <h3> LANs - blahblahblah</h3>
+  <body class="background">
+    <nav class="navbar justify-content-center navbar-expand-sm ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <ul class="nav navbar-nav ">
+    <li class="nav-item ">
+      
+        <a class="navbar-brand" href="/index.html">
+        <img  src="assets/images/EUGS.gif" class="rounded-circle d-inline-block img-fluid" width="50" height="50" loading="lazy">
+        EUGS
+        </a>
+        
+      
+        <a href="/events.html" class="neon-text">Events</a>
+      
+        <a href="/e_schedule.html" >Schedule</a>
+      
+        <a href="/about.html" >About Us</a>
+      
+        <a href="/servers.html" >Servers</a>
+      
+    </li>
+  </ul>
+
+</nav> 
+        <div class="container rounded pageback text-center">
+
+  
+
+    <h1> Our Events </h1>
 
 
-    <h2> EVENT SCHEDULE </h2>
-    <iframe src="https://calendar.google.com/calendar/embed?src=h9n0ijln6ugplbiqnk0856t5qk%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <div class = "container">
+
+
+        <p><u>Monthly LAN parties</u></p>
+        <p>
+            We all get together and play an assortment of PC console games. 
+            Everyone is encouraged to bring their own stuff but the commitee 
+            does supply some consoles and even a VR setup!
+        </p>
+
+        <p><u>The Video Game Music Game (VGMG)</u></p>
+        <p>
+            A game which is run online on our discord server. The game
+            is simple, a music track is played over voice chat in discord and 
+            you have to answer what it is.
+        </p>
+
+        <p><u>Weekly Game Nights</u></p>
+        <p>
+            Every Wednesday we get people on the discord server together to play an 
+            online PC game such as CS:GO, Overwatch. LOL etc. These are run by the commitee
+            and give people an opportunity to try new games out and hangout with people.
+        </p>
+
+        <p><u>Weekly Pub Nights</u></p>
+        <p>
+            Every Friday we meet up to take a break from the stress of students life 
+            and have a drink at the pub. 
+        </p>
+    
+
+        </div>
+
+    </div>
+
 </div>
+    <footer class="footer">
+  <div class="container text-center">
+    <a href="https://facebook.com/groups/EdinGameSoc" class="fab social fa-facebook img-fluid"></a>
+    <a href="https://discord.gg/edingamesoc" class="fab social fa-discord img-fluid"></a>
 
+    
+
+    <span id ="randomquote" class="text font-italic" style="font-size:1vw"></span>
+    
+  <!--
+  <script>
+    function rand() {
+
+      var quotes = ["test1","test2"]
+
+      return quotes[Math.floor(Math.random()*quotes.length)];
+
+    }
+
+    document.getElementById("randomquote").innerHTML = rand();
+  </script>
+
+  -->
+
+    <a href="https://www.twitch.tv/edingamesoc" class="fab social fa-twitch img-fluid"></a>
+    <a href="https://twitter.com/edingamesoc" class="fab social fa-twitter img-fluid"></a>
+  </div>
+</footer>
+
+
+<!-- TODO: randomise footer text with gamesoc quoptes and other funny things-->
   </body>
+  
 </html>

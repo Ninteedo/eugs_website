@@ -1,76 +1,89 @@
 <!doctype html>
 <html>
   <head>
-      <!--  Google Analytics stuff  -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149371938-1"></script>
-      <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+    <!--  Google Analytics stuff  -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149371938-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-149371938-1');
+    </script>
 
-          gtag('config', 'UA-149371938-1');
-      </script>
+    <!-- ensure responsive rendering -->  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
-
-      <meta charset="utf-8">
-      <title>EUGS Home Page</title>
-      <link rel="stylesheet" href="/assets/css/styles.css">
-
+    <!--Import Styles-->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/fb6be0d398.js" crossorigin="anonymous"></script>
+    
+    <meta charset="utf-8">
+    <title>EUGS Home Page</title>
   </head>
-  <body>
-    <nav>
-  
-    <a href="/" class="current">Home</a>
-  
-    <a href="/about.html" >About</a>
-  
-    <a href="/events.html" >Events</a>
-  
-</nav>
-    <h1>hello world!</h1>
-<h2> Game Nights - Every Wednesday and Sunday @7:30pm</h1>
-<h2> Pub - Every Friday Teviot@7:00pm </h1> 
 
-
-
-
-<!-- OLD SHIT
-<div class = "pageback">
+  <body class="background">
+    <nav class="navbar justify-content-center navbar-expand-sm ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <ul class="nav navbar-nav ">
+    <li class="nav-item ">
         
-    <div class="banner">
+      
+        <a href="/events.html" >Events</a>
+      
+        <a href="/e_schedule.html" >Schedule</a>
+      
+        <a href="/about.html" >About Us</a>
+      
+        <a href="/servers.html" >Servers</a>
+      
+    </li>
+  </ul>
 
-        <a href="oli.jpg"><img src="css/gsbanner.png" width="960"></a>
+</nav> 
+            <div class="container pageback" >
+        <img class="rounded mx-auto d-block img-fluid" src="assets/images/gsbanner.png" class="img-fluid" style="width: 90%;" > 
 
+        <h1 class="display-4 text-center"> Welcome to the Edinburgh University Gaming Society</h1>
+        <h3 class="text-center"> Scotlands Largest Gaming Society*</h3>
+
+        <h3 class="text-center"> Game Nights - Every Wednesday and Sunday @7:30pm</h3>
+        <h3 class="text-center"> Pub - Every Friday Teviot@7:00pm </h3>
     </div>
 
 
-    <div class="content-home">
-        <h1> Scotland's Largest Gaming Society</h1>
-
-        <div class = "row">
-            <div class="column">
-                <a href="https://discord.gg/edingamesoc"><img src="assets/discord.png?v=1.1" alt="discord" style="width:75%"></a>
-            </div>
-            <div class="column">
-                <a href="https://www.facebook.com/groups/EdinGameSoc/"><img src="assets/fb.png?v=1.1" alt="facebook" style="width:75%"></a>
-            </div>
-            <div class="column">
-                <a href="https://twitter.com/EdinGameSoc"><img src="assets/twitter.png?v=1.1" alt="twitter" style="width:75%"></a>
-            </div>
-        </div>
-                          
-        <p><em>Welcome to the gurg zone.</em></p>
-
-    </div>
-        
+    <footer class="footer">
+  <div class="container text-center">
+    <a href="https://facebook.com/groups/EdinGameSoc" class="fab social fa-facebook img-fluid"></a>
+    <a href="https://discord.gg/edingamesoc" class="fab social fa-discord img-fluid"></a>
 
     
-</div> 
--->
+
+    <span id ="randomquote" class="text font-italic" style="font-size:1vw"></span>
+    
+  <!--
+  <script>
+    function rand() {
+
+      var quotes = ["test1","test2"]
+
+      return quotes[Math.floor(Math.random()*quotes.length)];
+
+    }
+
+    document.getElementById("randomquote").innerHTML = rand();
+  </script>
+
+  -->
+
+    <a href="https://www.twitch.tv/edingamesoc" class="fab social fa-twitch img-fluid"></a>
+    <a href="https://twitter.com/edingamesoc" class="fab social fa-twitter img-fluid"></a>
+  </div>
+</footer>
 
 
-
-
+<!-- TODO: randomise footer text with gamesoc quoptes and other funny things-->
   </body>
+  
 </html>
