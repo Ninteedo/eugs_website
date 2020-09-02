@@ -29,7 +29,7 @@ body { margin-bottom: 60px; /* Margin bottom by footer height */ }
 
 .footer { position: absolute; bottom: 0; width: 100%; height: 60px; /* Set the fixed height of the footer here */ line-height: 30px; /* Vertically center the text there */ background-color: #000000; }
 
-.neon-text { text-shadow: 0 0 10px #000000, 0 0 20px grey, 0 0 30px #6fffe9, 0 0 40px #6fffe9, 0 0 50px #6fffe9; }
+.neon-text { text-shadow: 0 0 10px black, 0 0 25px #6fffe9, 0 0 35px #6fffe9; }
 
 .neon-box { box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #6fffe9, 0 0 40px #6fffe9, 0 0 50px #6fffe9; }
 

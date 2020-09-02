@@ -12,11 +12,12 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <div class="collapse  justify-content-center navbar-collapse" id="collapsibleNavbar">
       <ul class="nav navbar-nav">
         {% for item in site.data.nav %}
         <li class="nav-item">
-          <a class="" href="{{ item.link }}" {% if page.url == item.link %} class="neon-text"{% endif %}>{{ item.name }}</a>
+          <a href="{{ item.link }}" {% if page.url == item.link %} class="neon-text"{% endif %}>{{ item.name }}</a>
+          <br>
         </li> 
         {% endfor %}
       </ul>
