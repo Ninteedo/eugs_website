@@ -48,14 +48,20 @@ body {
     padding: 50px;
     border-radius:.25rem!important;
     background-color: #3d3d3d;
-    color:white; 
+    color:white 
 }
 
 
 .navbar-nav a{
     padding-left:10px;
-    padding-right:10px;
-  }
+    padding-right:10px;  
+}
+
+.nav-link{
+    color: #0094FF;
+}
+
+
 
 .nav-custom{
     background-color: #0094FF;
