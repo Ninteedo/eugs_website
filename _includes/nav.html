@@ -1,25 +1,28 @@
-<nav class="navbar justify-content-center navbar-expand-md navbar-dark">
-  {% if page.url != "/" %}
-    <a class="navbar-brand" href="/index.html">
-      <img  src="assets/images/EUGS.gif" class="rounded-circle d-inline-block img-fluid" width="50" height="50" loading="lazy">
-      EUGS
-    </a>
-  {% endif %}
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+
+<div class="container ">
+  <nav class="navbar justify-content-center navbar-expand-md navbar-dark">
+    {% if page.url != "/" %}
+      <a class="navbar-brand" href="/index.html">
+        <img  src="assets/images/EUGS.gif" class="rounded-circle d-inline-block img-fluid" width="50" height="50" loading="lazy">
+        EUGS
+      </a>
+    {% endif %}
   
-  <div class="collapse justify-content-center navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="nav navbar-nav">
         {% for item in site.data.nav %}
-        <li class="nav-item ">
-          <a class="nav-link" href="{{ item.link }}" {% if page.url == item.link %}class="neon-text"{% endif %}>{{ item.name }}</a>
+        <li class="nav-item">
+          <a class="" href="{{ item.link }}" {% if page.url == item.link %} class="neon-text"{% endif %}>{{ item.name }}</a>
         </li> 
         {% endfor %}
-         
-    </ul>
-  </div>  
-</nav>
+      </ul>
+    </div>  
+  </nav>
+</div>
 <!--
 <nav class="navbar  navbar-expand-lg ">
    
