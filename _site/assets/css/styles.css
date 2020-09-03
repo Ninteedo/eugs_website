@@ -27,8 +27,6 @@ body { margin-bottom: 60px; /* Margin bottom by footer height */ }
 
 .pageback { padding: 20px; border-radius: 0.5rem !important; box-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #C879FF, 0 0 30px #C879FF, 0 0 40px #C879FF, 0 0 50px #C879FF; background-color: black; color: white; }
 
-.navbar { height: 75px; }
-
 .navbar-nav a { padding-left: 10px; padding-right: 10px; }
 
 .nav-link { color: #0094FF; }
