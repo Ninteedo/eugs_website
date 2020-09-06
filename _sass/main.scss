@@ -1,12 +1,16 @@
 /* Constants */
 
-$neonColour: #C879FF ;
-/*Colours i liked
+$neonColour: #1fffcb  ;
+/*
+Colours i liked
 C879FF - purple/pinkish
 faa916 - yellow
 fb3640 - red
 15f2fd - pale blue
 1e90ff - blue
+5DDF2A - lime green
+ff70d2 - pale pink 
+1fffcb - sea green
 */
 
 
@@ -15,7 +19,7 @@ html {
     min-height: 100%;
   }
 body {
-    margin-bottom: 60px; /* Margin bottom by footer height */
+    margin-bottom: 110px; /* Margin bottom by footer height */
 }
 
 .fab:hover{
@@ -30,8 +34,8 @@ body {
     color: #4267B2;
 }
 
-.fa-twitter{
-    color: #1DA1F2;
+.fa-youtube{
+    color: red;
 }
 
 .fa-twitch{
@@ -48,17 +52,19 @@ body {
     margin: 7.5px;
   }
 
+  
 #top {
     background-image: url("memphis-colour.png");
+    background-color: black;
     font-size: 0.9rem;
     font-weight: 100;
     line-height: 1;
 }
 
 
-
 .pageback{
     padding: 20px;
+    padding-bottom: 50px;
     border-radius:.50rem!important;
     box-shadow: 0 0 10px #fff, 0 0 15px #fff,0 0 20px $neonColour, 0 0 30px $neonColour, 0 0 40px $neonColour, 0 0 50px $neonColour;
 
@@ -73,16 +79,17 @@ body {
     padding-right:10px;  
 }
 
+
 .nav-link{
     color: #0094FF;
 
 }
 
+
 .events-img{
     padding: 10px;
     width:120px; 
     height:auto;
-
 }
 
 
@@ -106,7 +113,6 @@ body {
 }
 
 
-
 /* stolen from w3 schools*/
 .neon-animated{
     -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -114,7 +120,6 @@ body {
     animation: glow 1s ease-in-out infinite alternate;
     
 }
-
 
 @-webkit-keyframes glow {
     from {
