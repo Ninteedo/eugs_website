@@ -1,0 +1,151 @@
+/* Constants */
+
+$neonColour: #1fffcb  ;
+/*
+Colours i liked
+C879FF - purple/pinkish
+faa916 - yellow
+fb3640 - red
+15f2fd - pale blue
+1e90ff - blue
+5DDF2A - lime green
+ff70d2 - pale pink 
+1fffcb - sea green
+*/
+
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+body {
+    margin-bottom: 110px; /* Margin bottom by footer height */
+}
+
+.fab:hover{
+    opacity: .7;
+}
+
+.fa-discord{
+    color: #7289da ;
+}
+
+.fa-facebook{
+    color: #4267B2;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+.fa-twitch{
+    color: #6441a5;
+}
+
+.fab {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 40px;
+  
+    text-align: center;
+    text-decoration: none;
+    margin: 7.5px;
+  }
+
+  
+#top {
+    background-image: url("memphis-colour.png");
+    background-color: black;
+    font-size: 0.9rem;
+    font-weight: 100;
+    line-height: 1;
+}
+
+
+.pageback{
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius:.50rem!important;
+    box-shadow: 0 0 10px #fff, 0 0 15px #fff,0 0 20px $neonColour, 0 0 30px $neonColour, 0 0 40px $neonColour, 0 0 50px $neonColour;
+
+    background-color: black;
+    color:white 
+}
+
+
+.navbar-nav a{
+   
+    padding-left:10px;
+    padding-right:10px;  
+}
+
+
+.nav-link{
+    color: #0094FF;
+
+}
+
+
+.events-img{
+    padding: 10px;
+    width:120px; 
+    height:auto;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 30px; /* Vertically center the text there */
+    background-color: #000000;
+}
+
+.current{
+    text-shadow: 0 0 5px black, 0 0 25px $neonColour, 0 0 35px $neonColour, 0 0 45px $neonColour, 0 0 55px $neonColour, 0 0 65px $neonColour,;
+
+}
+
+.neon-text{
+    text-shadow: 0 0 10px black, 0 0 25px $neonColour, 0 0 35px $neonColour,;
+
+}
+
+
+/* stolen from w3 schools*/
+.neon-animated{
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+
+.responsiveCal {
+ 
+    position: relative; 
+    padding-bottom: 60%; 
+    height: 0; 
+    overflow: hidden;
+    }
+     
+.responsiveCal iframe {
+     
+    position: absolute; 
+    top:0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+     
+}

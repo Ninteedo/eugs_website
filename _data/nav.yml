@@ -1,0 +1,8 @@
+- name: About
+  link: /about.html
+- name: Events
+  link: /events.html
+- name: Commitee
+  link: /commitee.html
+- name: Servers
+  link: /servers.html
