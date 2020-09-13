@@ -48,8 +48,6 @@ body {
     padding-right: 15px;
     font-size: 40px;
   
-    text-align: center;
-    text-decoration: none;
     margin: 7.5px;
   }
 
@@ -63,6 +61,10 @@ body {
     font-family: 'Russo One', sans-serif !important;
 }
 
+.nav-item {
+    padding-bottom: 5px;
+    font-size: 15px;
+}
 
 .pageback{
     padding: 15px;
@@ -83,7 +85,6 @@ body {
 
 .nav-link{
     color: #0094FF;
-
 }
 
 
