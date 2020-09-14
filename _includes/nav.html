@@ -6,7 +6,7 @@
         EUGS
       </a>
     {% endif %}
-  
+    
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -15,8 +15,8 @@
       <ul class="nav navbar-nav">
         {% for item in site.data.nav %}
         <li class="nav-item">
-          <a href="{{ item.link }}" {% if page.url == item.link %} class="current"{% endif %}>{{ item.name }}</a>
-          <br>
+          <a href="{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>{{ item.name }}</a>
+
         </li> 
         {% endfor %}
       </ul>

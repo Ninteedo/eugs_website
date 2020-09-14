@@ -23,10 +23,6 @@ body {
     
 }
 
-.fab:hover{
-    opacity: .7;
-}
-
 .fa-discord{
     color: #7289da ;
 }
@@ -47,7 +43,6 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     font-size: 40px;
-  
     margin: 7.5px;
   }
 
@@ -70,16 +65,14 @@ body {
     padding: 15px;
     border-radius:.50rem!important; //rounds the corners
     box-shadow: 0 0 10px #fff, 0 0 15px #fff,0 0 20px $neonColour, 0 0 30px $neonColour, 0 0 40px $neonColour, 0 0 50px $neonColour;
-
     background-color: black;
-    color:white 
+    color:white ;
 }
 
 
 .navbar-nav a{
-   
-    padding-left:10px;
-    padding-right:10px;  
+    padding-left: 10px;
+    padding-right: 10px;  
 }
 
 
@@ -90,8 +83,8 @@ body {
 
 .events-img{
     padding: 10px;
-    width:120px; 
-    height:auto;
+    width: 120px; 
+    height: auto;
 }
 
 
@@ -106,12 +99,10 @@ body {
 
 .current{
     text-shadow: 0 0 5px black, 0 0 25px $neonColour, 0 0 35px $neonColour, 0 0 45px $neonColour, 0 0 55px $neonColour, 0 0 65px $neonColour,;
-
 }
 
 .neon-text{
     text-shadow: 0 0 10px black, 0 0 25px $neonColour, 0 0 35px $neonColour,;
-
 }
 
 
@@ -120,7 +111,6 @@ body {
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
-    
 }
 
 @-webkit-keyframes glow {
@@ -135,15 +125,13 @@ body {
 
 
 .responsiveCal {
- 
     position: relative; 
     padding-bottom: 60%; 
     height: 0; 
     overflow: hidden;
-    }
+}
      
 .responsiveCal iframe {
-     
     position: absolute; 
     top:0; 
     left: 0; 
