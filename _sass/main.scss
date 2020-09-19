@@ -23,6 +23,19 @@ body {
     
 }
 
+p {
+    line-height: 1.1;
+}
+
+#top {
+    background-image: url("memphis-colour-new.png");
+    background-color: black;
+    font-size: 0.9rem;
+    font-weight: 100;
+    line-height: 1;
+    font-family: 'Russo One', sans-serif !important;
+}
+
 .fa-discord{
     color: #7289da ;
 }
@@ -46,15 +59,9 @@ body {
     margin: 7.5px;
   }
 
+
   
-#top {
-    background-image: url("memphis-colour-new.png");
-    background-color: black;
-    font-size: 0.9rem;
-    font-weight: 100;
-    line-height: 1;
-    font-family: 'Russo One', sans-serif !important;
-}
+
 
 .nav-item {
     padding-bottom: 5px;
