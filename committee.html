@@ -3,9 +3,22 @@ layout: default
 title: Committee
 ---
 <!---
-There is definitley a cleaner, sexier way to do this. And i dont care
+    There is definitley a cleaner, sexier way to do this. And i dont care
+    ---
+    I decided to do it anyway
 --->
 <div class="container pageback">
+
+    {% for item in site.data.committee %}
+        <img src="{{ item.pic }}" class="rounded-circle events-img float-left img-fluid" style="width:120px; height:auto;">
+        <p class=" h4 text-left"><u>President</u> <small class="" style="color:#9040a2;">   Aidan Sherdley - "The Rat King"</small></p>
+        <p class="text-left"><em><strong>*Unintelligible monkey noises*</strong></em></p>
+        <br>
+        <br>
+        <br>
+        <br>
+    {% endfor %}
+
     <img src="assets/images/president.jpg" class="rounded-circle events-img float-left img-fluid" style="width:120px; height:auto;">
     <p class=" h4 text-left"><u>President</u> <small class="" style="color:#9040a2;">   Aidan Sherdley - "The Rat King"</small></p>
     <p class="text-left"><em><strong>*Unintelligible monkey noises*</strong></em></p>
