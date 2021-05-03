@@ -1,6 +1,6 @@
 /* Constants */
 
-$neonColour: #1fffcb  ;
+$neonColour: #15f2fd  ;
 /*
 Colours i liked
 C879FF - purple/pinkish
@@ -36,6 +36,43 @@ p {
     font-family: 'Russo One', sans-serif !important;
 }
 
+.about-div{
+    padding-bottom: 70px;
+
+}
+
+.card-deck{
+    padding-bottom: 10px;
+}
+
+.text-shadow{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+}
+
+.committee-img{
+    padding: 5px;
+    width: 90%;
+    height: auto;
+}
+
+.committee-title{
+    padding-left: 20px;
+    padding-top:10px;
+}
+
+.committee-bio{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.committee-card{
+    background-color:#292929!important;
+    min-height: 170px;
+    box-shadow: 0 0 10px #fff,0 0 10px $neonColour;
+}
+
 .fa-discord{
     color: #7289da ;
 }
@@ -52,15 +89,17 @@ p {
     color: #6441a5;
 }
 
-.fab {
+.hidden{
+    color: black;
+}
+
+
+.social{
     padding-left: 15px;
     padding-right: 15px;
     font-size: 40px;
     margin: 7.5px;
-  }
-
-
-  
+}
 
 
 .nav-item {
@@ -71,7 +110,7 @@ p {
 .pageback{
     padding: 15px;
     border-radius:.50rem!important; //rounds the corners
-    box-shadow: 0 0 10px #fff, 0 0 15px #fff,0 0 20px $neonColour, 0 0 30px $neonColour, 0 0 40px $neonColour, 0 0 50px $neonColour;
+    box-shadow: 0 0 10px #fff, 0 0 15px $neonColour,0 0 20px $neonColour, 0 0 30px $neonColour, 0 0 40px $neonColour, 0 0 50px $neonColour;
     background-color: black;
     color:white ;
 }
@@ -91,8 +130,9 @@ p {
 .events-img{
     padding: 10px;
     width: 120px; 
-    height: auto;
+    height: 120px;
 }
+
 
 
 .footer {

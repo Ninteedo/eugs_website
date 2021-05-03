@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <style>
+    img{
+      animation: shake 0.5s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes shake {
+      0% { transform: translate(1px, 1px) ; }
+      10% { transform: translate(-1px, -2px) ; }
+      20% { transform: translate(-3px, 0px) ; }
+      30% { transform: translate(3px, 2px) ; }
+      40% { transform: translate(2px, -2px) ; }
+      50% { transform: translate(-2px, 4px) ; }
+      60% { transform: translate(-6px, 2px) ; }
+      70% { transform: translate(3px, 1px) ; }
+      80% { transform: translate(-1px, -1px) ; }
+      90% { transform: translate(1px, 2px); }
+      100% { transform: translate(1px, -2px) ; }
+    }
+  </style>
+</head>
+
+<body style="background-color: black;">
+
+    <div id="animation">
+      <img id="aaa"class ="center" src="assets/images/scrunge.png" style="display: block; padding-top: 50px; margin-left: auto; margin-right: auto;">
+      <embed src="assets/sounds/Baby Crying Sound Effect.mp3" loop="true" autostart="true">
+    </div>
+</body>
+</html>

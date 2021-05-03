@@ -2,74 +2,56 @@
 layout: default 
 title: Committee
 ---
-<!---
-    There is definitley a cleaner, sexier way to do this. And i dont care
-    ---
-    I decided to do it anyway
---->
-<div class="container pageback">
 
-    <!-- NOT WORKING YET
+<div id ="committee" class="container">
+    <h2 class="text-center text-shadow" style="padding-bottom: 30px"> Meet the Committee!</h2>
     {% for item in site.data.committee %}
-        <img src="{{ item.pic }}" class="rounded-circle events-img float-left img-fluid" style="width:120px; height:auto;">
-        <p class=" h4 text-left"><u>President</u> <small class="" style="color:#9040a2;">   Aidan Sherdley - "The Rat King"</small></p>
-        <p class="text-left"><em><strong>*Unintelligible monkey noises*</strong></em></p>
-        <br>
-        <br>
-        <br>
-        <br>
+      {% assign i = forloop.index0 | modulo: 3 %}
+      {% if i == 0 %}
+        <div class="card-deck">
+          <div class="card committee-card text-shadow border">
+            <div>
+                <span class ="float-left" style="display: inline-block;">
+                  <img src="assets/images/committee/{{item.pic}}" class="rounded-circle committee-img img-fluid">
+                </span>
+                <h4 class="card-title committee-title" style = "{{item.colour}}!important">{{item.name}}</h4>
+                <p class="card-title"><i>{{item.role}}</i></p>
+            </div>
+            <div>
+                <p class="committee-bio">{{item.quote}}</p>      
+            </div>     
+        </div>  
+      {% elsif i == 2  %}
+          <div class="card committee-card text-shadow border">
+            <div>
+              <span class ="float-left" style="display: inline-block;">
+              <img src="assets/images/committee/{{item.pic}}" class="rounded-circle committee-img img-fluid">
+              </span>
+              <h4 class="card-title committee-title" style = "{{item.colour}}!important">{{item.name}}</h4>
+              <p class="card-title"><i>{{item.role}}</i></p>
+            </div>
+            <div>
+                <p class="committee-bio">{{item.quote}}</p>      
+            </div>     
+          </div>
+        </div>
+      
+      {% else %}
+          <div class="card committee-card text-shadow border">
+            <div>
+              <span class ="float-left" style="display: inline-block;">
+                <img src="assets/images/committee/{{item.pic}}" class="rounded-circle committee-img img-fluid">
+              </span>
+              <h4 class="card-title committee-title" style = "{{item.colour}}!important">{{item.name}}</h4>
+              <p class="card-title"><i>{{item.role}}</i></p>
+            </div>
+            <div>
+                <p class="committee-bio">{{item.quote}}</p>      
+            </div>     
+          </div>    
+        
+      
+      {% endif %}
+        
     {% endfor %}
-    -->
-
-    <img src="assets/images/president.jpg" class="rounded-circle events-img float-left img-fluid" style="width:120px; height:auto;">
-    <p class=" h4 text-left"><u>President</u> <small class="" style="color:#9040a2;">   Aidan Sherdley - "The Rat King"</small></p>
-    <p class="text-left"><em><strong>*Unintelligible monkey noises*</strong></em></p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="assets/images/bingus.png" class="rounded-circle d-inline-block events-img float-left img-fluid" style="width:120px; height:autopx;">
-    <p class=" h4 text-left"><u>Secretary</u><small style="color:#3c6fe6;">   Alex Romundt - "The Fanboy"</small></p>
-    <p class="text-left"><em><strong>"A Scar doesnt have a banana mag, get your gunology right"</strong></em></p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="assets/images/moneymoneymoney.jpg" class="rounded-circle d-inline-block img-fluid events-img float-left img-fluid" style="width:120px; height:auto;">
-    <p class=" h4 text-left"><u>Treasurer</u><small style="color:#ffd700;">   Alex Knight - "The Professional"</small></p>
-    <p class="text-left"><em><strong>"I dont care if you kill hong kong, just dont come near me"</em></strong></p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
-    <img src="assets/images/esports.jpg" class="rounded-circle d-inline-block img-fluid events-img float-left img-fluid" style="width:120px; height:auto;">
-    <p class=" h4 text-left"><u>Esports Coordinator</u><small style="color:#df4c4c;">    Henry Vokoun - "The James"</small></p>
-    <p class="text-left"><em><strong>"thats a bit yikes"</strong></em></p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="assets/images/gurg.jpg" class="rounded-circle events-img float-left img-fluid" style="width:120px; height:auto;">
-    <p class=" h4 text-left"><u>Server Admin</u><small style="color:#ffffff;">   Gurg - "The Divine Emissary"</small></p>
-    <p class="text-left"><em><strong>"stfu we are watching eva."</strong></em></p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="assets/images/socialsec.jpg" class="rounded-circle events-img float-left img-fluid" style="width:120px; height:auto;">
-    <p class=" h4 text-left"><u>Social Secretary</u><small style="color:#45c930;">   Dwight Quinn - "The Pubmaster"</small></p>
-    <p class="text-left"><em><strong>"Anime is fleeting, gamesoc is eternal"</strong></em></p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="assets/images/general.jpg" class="rounded-circle events-img float-left img-fluid" style="width:120px; height:auto;">
-    <p class=" h4 text-left"><u>General Commitee</u><small style="color:#1abc9c;">   Tenci Earnshaw - "The Meeba"</small></p>
-    <p class="text-left"><em><strong>"69 is a very un-tenky number..."</strong></em></p>
-    <br>
-    <br>
-    <br>
-
 </div>
