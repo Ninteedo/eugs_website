@@ -1,8 +1,10 @@
-- name: About
-  link: /about.html
+- name: About Us
+  link: about
 - name: Events
-  link: /events.html
-- name: Commitee
-  link: /commitee.html
+  link: events
+- name: Committee
+  link: committee
 - name: Servers
-  link: /servers.html
+  link: servers
+- name: Downloads
+  link: http://downloads.edingamesoc.co.uk

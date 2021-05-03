@@ -1,0 +1,63 @@
+- name: Henry Vokoun
+  pic:  president.jpg
+  role: President
+  title: Chief Gay
+  quote: CSGO nerd and a southerner who's trying way too hard to not be a southerner.
+  colour: color:#fac34d
+
+- name: Mak Pehar 
+  pic:  secretary.jpg
+  role: Secretary
+  title: The [REDACTED FROM OFFICIAL RECORDS]
+  quote: Average roguelike/MMO enjoyer. Official EUSA ambassador.
+  colour: color:#a9353c
+
+- name: Andrew Kvedas
+  pic:  treasurer.jpg
+  role: Treasurer
+  title: Femboy Finance
+  quote: I'm only the treasurer because gamesoc maid isnt a real position yet.
+  colour: color:#f200df
+
+- name: Antonis Frangiskou
+  pic: socialsec.jpg
+  role: Social Secretary
+  title: Based Combat
+  quote: Haha fighter jet go brrrrrr!
+  colour: color:#835eec
+
+- name: Amogh Bodas
+  pic:  esports.jpg
+  role: Esports Coordinator
+  title: Lé Monké
+  quote: Lé Monké
+  colour: color:#f5b23e
+
+- name: Tom Tudor
+  pic: admin.jpg
+  role: Server Admin  
+  title: The Mad King 
+  quote: I'm the the guy in charge of the servers. I make sure nothing breaks and fixes it when it does.
+  colour: color:#849cd8
+
+- name: Lewis Ollier
+  pic:  general1.jpg
+  role: Committee Assistant
+  title: Cerberus 1
+  quote: I'm okay with the end of the universe but Khajiit's on the moons is a step too far
+  colour: color:#55d87d
+
+- name: Aidan Sherdley
+  pic:  general2.jpg
+  role: Committee Assistant
+  title: Cerberus 2
+  quote: Aidan is the most important member of the committee, for his work in making high effort shitposts.
+  colour: color:#55d87d
+
+- name: Dwight Quinn
+  pic:  general3.jpg
+  role: Committee Assistant
+  title: Cerberus 3
+  quote: Pub? Pub.
+  colour: color:#55d87d
+

@@ -1,6 +1,6 @@
 /* Constants */
 
-$neonColour: #1fffcb  ;
+$neonColour: #15f2fd  ;
 /*
 Colours i liked
 C879FF - purple/pinkish
@@ -20,10 +20,61 @@ html {
   }
 body {
     margin-bottom: 110px; /* Margin bottom by footer height */
+    
 }
 
-.fab:hover{
-    opacity: .7;
+p {
+    line-height: 1.1;
+}
+
+h1{
+    font-family: 'Russo One', sans-serif !important;
+}
+
+#top {
+    background-image: url("memphis-colour-new.png");
+    background-color: black;
+    font-size: 0.9rem;
+    font-weight: 100;
+    line-height: 1;
+    font-family: 'Russo One', sans-serif !important;
+}
+
+.about-div{
+    padding-bottom: 70px;
+
+}
+
+.card-deck{
+    padding-bottom: 10px;
+}
+
+.text-shadow{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+}
+
+.committee-img{
+    padding: 5px;
+    width: 90%;
+    height: auto;
+}
+
+.committee-title{
+    padding-left: 20px;
+    padding-top:10px;
+}
+
+.committee-bio{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.committee-card{
+    background-color:#292929!important;
+    min-height: 170px;
+    box-shadow: 0 0 10px #fff,0 0 10px $neonColour;
 }
 
 .fa-discord{
@@ -42,74 +93,67 @@ body {
     color: #6441a5;
 }
 
-.fab {
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 40px;
-  
-    text-align: center;
-    text-decoration: none;
-    margin: 7.5px;
-  }
-
-  
-#top {
-    background-image: url("memphis-colour.png");
-    background-color: black;
-    font-size: 0.9rem;
-    font-weight: 100;
-    line-height: 1;
+.hidden{
+    color: black;
 }
 
 
-.pageback{
-    padding: 20px;
-    padding-bottom: 50px;
-    border-radius:.50rem!important;
-    box-shadow: 0 0 10px #fff, 0 0 15px #fff,0 0 20px $neonColour, 0 0 30px $neonColour, 0 0 40px $neonColour, 0 0 50px $neonColour;
+.social{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 40px;
+    margin: 7.5px;
+}
 
+
+.nav-item {
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+.pageback{
+    padding: 15px;
+    border-radius:.50rem!important; //rounds the corners
+    box-shadow: 0 0 10px #fff, 0 0 15px $neonColour,0 0 20px $neonColour, 0 0 30px $neonColour, 0 0 40px $neonColour, 0 0 50px $neonColour;
     background-color: black;
-    color:white 
+    color:white ;
 }
 
 
 .navbar-nav a{
-   
-    padding-left:10px;
-    padding-right:10px;  
+    padding-left: 10px;
+    padding-right: 10px;  
 }
 
 
 .nav-link{
     color: #0094FF;
-
 }
 
 
 .events-img{
     padding: 10px;
-    width:120px; 
-    height:auto;
+    width: 120px; 
+    height: 120px;
 }
+
 
 
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 60px; /* Set the fixed height of the footer here */
-    line-height: 30px; /* Vertically center the text there */
+    height: auto; /* Set the fixed height of the footer here */
+    line-height: 20px; /* Vertically center the text there */
     background-color: #000000;
 }
 
 .current{
     text-shadow: 0 0 5px black, 0 0 25px $neonColour, 0 0 35px $neonColour, 0 0 45px $neonColour, 0 0 55px $neonColour, 0 0 65px $neonColour,;
-
 }
 
 .neon-text{
     text-shadow: 0 0 10px black, 0 0 25px $neonColour, 0 0 35px $neonColour,;
-
 }
 
 
@@ -118,7 +162,6 @@ body {
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
-    
 }
 
 @-webkit-keyframes glow {
@@ -133,19 +176,17 @@ body {
 
 
 .responsiveCal {
- 
     position: relative; 
     padding-bottom: 60%; 
     height: 0; 
     overflow: hidden;
-    }
+}
      
 .responsiveCal iframe {
-     
     position: absolute; 
     top:0; 
     left: 0; 
     width: 100%; 
     height: 100%;
-     
+    border-radius:.50rem!important; //rounds the corners
 }
