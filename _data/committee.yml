@@ -1,57 +1,57 @@
-- name: Henry Vokoun
+- name: Henry Vokoun (They/Them)
   pic:  president.jpg
   role: President
   title: Chief Gay
-  quote: CSGO nerd and a southerner who's trying way too hard to not be a southerner.
+  quote: A southerner who's trying way too hard to not be a southerner.
   colour: color:#fac34d
 
-- name: Mak Pehar 
+- name: Mak Pehar (He/They)
   pic:  secretary.jpg
   role: Secretary
   title: The [REDACTED FROM OFFICIAL RECORDS]
   quote: Average roguelike/MMO enjoyer. Official EUSA ambassador.
   colour: color:#a9353c
 
-- name: Andrew Kvedas
+- name: Andrew Kvedas (He/They)
   pic:  treasurer.jpg
   role: Treasurer
   title: Femboy Finance
   quote: I'm only the treasurer because gamesoc maid isnt a real position yet.
   colour: color:#f200df
 
-- name: Antonis Frangiskou
+- name: Antonis Frangiskou (He/Him)
   pic: socialsec.jpg
   role: Social Secretary
   title: Based Combat
-  quote: Haha fighter jet go brrrrrr!
+  quote: Jet fighter connoisseur and cringe video game nerd.
   colour: color:#835eec
 
-- name: Amogh Bodas
+- name: Amogh Bodas (He/Him)
   pic:  esports.jpg
   role: Esports Coordinator
   title: Lé Monké
   quote: Lé Monké
   colour: color:#f5b23e
 
-- name: Tom Tudor
+- name: Tom Tudor (He/Him)
   pic: admin.jpg
   role: Server Admin  
   title: The Mad King 
-  quote: What if I promised an arma server but just kept making minecraft ones?
+  quote: What if I promised an arma server but asked Aidan to set it up?
   colour: color:#849cd8
-
-- name: Lewis Ollier
-  pic:  general1.jpg
-  role: Committee Assistant
-  title: Cerberus 1
-  quote: I'm okay with the end of the universe but Khajiit's on the moons is a step too far
-  colour: color:#55d87d
-
-- name: Aidan Sherdley
+  
+- name: Aidan Sherdley (He/Him)
   pic:  general2.jpg
   role: Committee Assistant
+  title: Cerberus 1
+  quote: Aidan is the most important member of the committee, for his work in making high effort shitposts & the arma server.
+  colour: color:#55d87d
+
+- name: Lewis Ollier (He/Him)
+  pic:  general1.jpg
+  role: Committee Assistant
   title: Cerberus 2
-  quote: Aidan is the most important member of the committee, for his work in making high effort shitposts.
+  quote: I'm okay with the end of the universe but Khajiit's on the moons is a step too far
   colour: color:#55d87d
 
 - name: Dwight Quinn
