@@ -137,6 +137,28 @@ h1{
     height: 120px;
 }
 
+div.esports-leagues {
+    margin: auto;
+    width: 75%;
+    max-width: 500px;
+}
+
+div.esports-leagues img {
+    max-width: 48%;
+    // max-height: 30vh;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+div.esports-games img {
+    max-width: 75%;
+    margin: auto;
+    display: block;
+}
+
+div.esports-games p {
+    display: none;
+}
 
 
 .footer {
