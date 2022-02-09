@@ -2,11 +2,11 @@
   link: about
 - name: Events
   link: events
+- name: Esports
+  link: esports
 - name: Committee
   link: committee
 - name: Servers
   link: servers
 - name: Downloads
   link: http://downloads.edingamesoc.co.uk
-- name: Esports
-  link: esports
