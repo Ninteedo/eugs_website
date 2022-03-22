@@ -1,5 +1,5 @@
 - name: Dwight Quinn
-  pic:  general3.jpg
+  pic:  
   role: President
   title: The PubMaster
   quote: Pub? Pub.
@@ -41,14 +41,14 @@
   colour: color:#849cd8
 
 - name: Tom Tudor
-  pic:  admin.jpg
+  pic:  general1.jpg
   role: Committee Assistant
   title: YIN
   quote: Gamesoc dungeon master. Will trade magic items for snacks.
   colour: color:#55d87d
 
 - name: Amogh Bodas
-  pic:  esports.jpg
+  pic:  
   role: Committee Assistant
   title: YANG
   quote: 🤝:)
