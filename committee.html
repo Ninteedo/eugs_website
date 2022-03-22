@@ -22,6 +22,21 @@ title: Committee
           <p class="committee-bio">{{item.quote}}</p>      
         </div>     
       </div>  
+        
+    {% elsif i == 1 %}
+      <div class="card committee-card text-shadow border">
+        <div>
+          <span class ="float-left" style="display: inline-block;">
+            <img src="assets/images/committee/{{item.pic}}" class="rounded-circle committee-img img-fluid">
+          </span>
+          <h4 class="card-title committee-title" style = "{{item.colour}}!important">{{item.name}}</h4>
+          <p class="card-title"><i>{{item.role}}</i></p>
+        </div>
+        <div>
+          <p class="committee-bio">{{item.quote}}</p>
+        </div>
+      </div>
+
     {% elsif i == 2  %}
       <div class="card committee-card text-shadow border">
         <div>
@@ -36,23 +51,6 @@ title: Committee
         </div>
       </div>
     </div>
-    
-    
-    {% else %}
-    <div class="card committee-card text-shadow border">
-      <div>
-        <span class ="float-left" style="display: inline-block;">
-          <img src="assets/images/committee/{{item.pic}}" class="rounded-circle committee-img img-fluid">
-        </span>
-        <h4 class="card-title committee-title" style = "{{item.colour}}!important">{{item.name}}</h4>
-        <p class="card-title"><i>{{item.role}}</i></p>
-      </div>
-      <div>
-        <p class="committee-bio">{{item.quote}}</p>      
-      </div>     
-    </div>    
-    
-    
     {% endif %}
 
     {% if forloop.index == forloop.length %}
