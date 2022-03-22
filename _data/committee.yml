@@ -1,40 +1,40 @@
 - name: Dwight Quinn
-  pic:  
+  pic:  placeholder.jpg
   role: President
   title: The PubMaster
   quote: Pub? Pub.
   colour: color:#55d87d
 
 - name: Camila Sanchez 
-  pic:  
+  pic:  placeholder.jpg
   role: Secretary
   title: The D.VA main
   quote: 
   colour: color:#a9353c
 
 - name: James Cladingbowl
-  pic:  
+  pic:  placeholder.jpg
   role: Treasurer
   title: Femboy Finance
   quote: 
   colour: color:#f200df
 
 - name: Graye Goldsmith
-  pic: 
+  pic: placeholder.jpg
   role: Social Secretary
   title: The Archlich
   quote: kel'thuzad my beloved
   colour: color:#835eec
 
 - name: The Committee!
-  pic:  
+  pic:  gamesoccenter.jpg
   role: 
   title: 
   quote: 
   colour: 
 
 - name: Maya Copeland
-  pic: 
+  pic: placeholder.jpg
   role: Server Admin  
   title: The Purse Owner 
   quote: Ran for president and all I got was server admin
@@ -48,7 +48,7 @@
   colour: color:#060973
 
 - name: Amogh Bodas
-  pic:  
+  pic:  placeholder.jpg
   role: Committee Assistant
   title: YANG
   quote: 🤝:)
