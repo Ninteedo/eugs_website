@@ -1,63 +1,49 @@
-- name: Henry Vokoun (They/Them)
-  pic:  president.jpg
+name: Dwight Quinn
+  pic:  general3.jpg
   role: President
-  title: Chief Gay
-  quote: A southerner who's trying way too hard to not be a southerner.
-  colour: color:#fac34d
+  title: The PubMaster
+  quote: Pub? Pub.
+  colour: color:#55d87d
 
-- name: Mak Pehar (He/They)
-  pic:  secretary.jpg
+- name: Camila Sanchez 
+  pic:  
   role: Secretary
-  title: The [REDACTED FROM OFFICIAL RECORDS]
-  quote: Average roguelike/MMO enjoyer. Official EUSA ambassador.
+  title: The D.VA main
+  quote: 
   colour: color:#a9353c
 
-- name: Andrew Kvedas (He/They)
-  pic:  treasurer.jpg
+- name: James Cladingbowl
+  pic:  
   role: Treasurer
   title: Femboy Finance
-  quote: I'm only the treasurer because gamesoc maid isnt a real position yet.
+  quote: 
   colour: color:#f200df
 
-- name: Antonis Frangiskou (He/Him)
-  pic: socialsec.jpg
+- name: Graye Goldsmith
+  pic: 
   role: Social Secretary
-  title: Based Combat
-  quote: Jet fighter connoisseur and cringe video game nerd.
+  title: The Archlich
+  quote: kel'thuzad my beloved
   colour: color:#835eec
 
-- name: Amogh Bodas (He/Him)
-  pic:  esports.jpg
-  role: Esports Coordinator
-  title: Lé Monké
-  quote: Lé Monké
-  colour: color:#f5b23e
-
-- name: Tom Tudor (He/Him)
-  pic: admin.jpg
+- name: Maya Copeland
+  pic: 
   role: Server Admin  
-  title: The Mad King 
-  quote: What if I promised an arma server but asked Aidan to set it up?
+  title: The Purse Owner 
+  quote: Ran for president and all I got was server admin
   colour: color:#849cd8
-  
-- name: Aidan Sherdley (He/Him)
-  pic:  general2.jpg
+
+- name: Tom Tudor
+  pic:  admin.jpg
   role: Committee Assistant
-  title: Cerberus 1
-  quote: Aidan is the most important member of the committee, for his work in making high effort shitposts & the arma server.
+  title: YIN
+  quote: Gamesoc dungeon master. Will trade magic items for snacks.
   colour: color:#55d87d
 
-- name: Lewis Ollier (He/Him)
-  pic:  general1.jpg
+- name: Amogh Bodas
+  pic:  esports.jpg
   role: Committee Assistant
-  title: Cerberus 2
-  quote: I'm okay with the end of the universe but Khajiit's on the moons is a step too far
-  colour: color:#55d87d
-
-- name: Dwight Quinn
-  pic:  general3.jpg
-  role: Committee Assistant
-  title: Cerberus 3
-  quote: Pub? Pub.
+  title: YANG
+  quote: 🤝:)
   colour: color:#55d87d
 
