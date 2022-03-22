@@ -4,54 +4,61 @@ title: Committee
 ---
 
 <div id ="committee" class="container">
-    <h2 class="text-center text-shadow" style="padding-bottom: 30px"> Meet the Committee!</h2>
-    {% for item in site.data.committee %}
-      {% assign i = forloop.index0 | modulo: 3 %}
-      {% if i == 0 %}
-        <div class="card-deck">
-          <div class="card committee-card text-shadow border">
-            <div>
-                <span class ="float-left" style="display: inline-block;">
-                  <img src="assets/images/committee/{{item.pic}}" class="rounded-circle committee-img img-fluid">
-                </span>
-                <h4 class="card-title committee-title" style = "{{item.colour}}!important">{{item.name}}</h4>
-                <p class="card-title"><i>{{item.role}}</i></p>
-            </div>
-            <div>
-                <p class="committee-bio">{{item.quote}}</p>      
-            </div>     
-        </div>  
-      {% elsif i == 2  %}
-          <div class="card committee-card text-shadow border">
-            <div>
-              <span class ="float-left" style="display: inline-block;">
-              <img src="assets/images/committee/{{item.pic}}" class="rounded-circle committee-img img-fluid">
-              </span>
-              <h4 class="card-title committee-title" style = "{{item.colour}}!important">{{item.name}}</h4>
-              <p class="card-title"><i>{{item.role}}</i></p>
-            </div>
-            <div>
-                <p class="committee-bio">{{item.quote}}</p>      
-            </div>     
-          </div>
+  <h2 class="text-center text-shadow" style="padding-bottom: 30px">Meet the Committee!</h2>
+  {% for item in site.data.committee %}
+    {% assign i = forloop.index0 | modulo: 3 %}
+
+    {% if i == 0 %}
+    <div class="card-deck">
+      <div class="card committee-card text-shadow border">
+        <div>
+          <span class ="float-left" style="display: inline-block;">
+            <img src="assets/images/committee/{{item.pic}}" class="rounded-circle committee-img img-fluid">
+          </span>
+          <h4 class="card-title committee-title" style = "{{item.colour}}!important">{{item.name}}</h4>
+          <p class="card-title"><i>{{item.role}}</i></p>
         </div>
-      
-      {% else %}
-          <div class="card committee-card text-shadow border">
-            <div>
-              <span class ="float-left" style="display: inline-block;">
-                <img src="assets/images/committee/{{item.pic}}" class="rounded-circle committee-img img-fluid">
-              </span>
-              <h4 class="card-title committee-title" style = "{{item.colour}}!important">{{item.name}}</h4>
-              <p class="card-title"><i>{{item.role}}</i></p>
-            </div>
-            <div>
-                <p class="committee-bio">{{item.quote}}</p>      
-            </div>     
-          </div>    
-        
-      
-      {% endif %}
-        
-    {% endfor %}
+        <div>
+          <p class="committee-bio">{{item.quote}}</p>      
+        </div>     
+      </div>  
+    {% elsif i == 2  %}
+      <div class="card committee-card text-shadow border">
+        <div>
+          <span class ="float-left" style="display: inline-block;">
+            <img src="assets/images/committee/{{item.pic}}" class="rounded-circle committee-img img-fluid">
+          </span>
+          <h4 class="card-title committee-title" style = "{{item.colour}}!important">{{item.name}}</h4>
+          <p class="card-title"><i>{{item.role}}</i></p>
+        </div>
+        <div>
+          <p class="committee-bio">{{item.quote}}</p>      
+        </div>
+      </div>
+    </div>
+    
+    
+    {% else %}
+    <div class="card committee-card text-shadow border">
+      <div>
+        <span class ="float-left" style="display: inline-block;">
+          <img src="assets/images/committee/{{item.pic}}" class="rounded-circle committee-img img-fluid">
+        </span>
+        <h4 class="card-title committee-title" style = "{{item.colour}}!important">{{item.name}}</h4>
+        <p class="card-title"><i>{{item.role}}</i></p>
+      </div>
+      <div>
+        <p class="committee-bio">{{item.quote}}</p>      
+      </div>     
+    </div>    
+    
+    
+    {% endif %}
+
+    {% forloop.index0 == { forloop.length | minus: 1 } %}
+    </div>
+    {% endif %}
+
+  
+  {% endfor %}
 </div>
